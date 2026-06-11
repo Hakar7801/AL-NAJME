@@ -1,0 +1,6 @@
+{
+  "name": "النجم موبايل",
+  "description": "الموقع الرسمي لمحل النجم موبايل في صنعاء - الأصبحي لبيع الهواتف وصيانتها والبرمجة وحجز الأرقام المميزة مع لوحة تحكم كاملة.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

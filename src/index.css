@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cairo", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #050505;
+  color: #ffffff;
+}
+
+/* Custom golden gradient and glowing styles for Bold Typography Theme (Amber Accents) */
+.text-gold {
+  color: #f59e0b; /* Vibrant amber-500 */
+}
+
+.bg-gold {
+  background-color: #d97706; /* Solid amber-600 */
+}
+
+.border-gold {
+  border-color: #f59e0b;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #d97706 100%);
+}
+
+.gold-gradient-hover:hover {
+  background: linear-gradient(135deg, #fef08a 0%, #fbbf24 50%, #f59e0b 100%);
+}
+
+.dark-card {
+  background-color: #0a0a0a;
+  border: 1px solid #1a1a1a;
+}
+
+.dark-card-royal {
+  background: linear-gradient(185deg, #0d0d0d 0%, #050505 100%);
+  border: 1px solid rgba(245, 158, 11, 0.15);
+}
+
+.dark-card-royal:hover {
+  border-color: rgba(245, 158, 11, 0.35);
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.08);
+}
+
+/* RTL specifics when needed */
+[dir="rtl"] .rtl-flip {
+  transform: scaleX(-1);
+}
+
+/* Animate layout fades custom */
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
