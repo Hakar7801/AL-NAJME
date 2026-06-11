@@ -161,6 +161,7 @@ export default function App() {
     const fallback: Record<string, Record<string, string>> = {
       ar: {
         "nav.home": "الرئيسية",
+        "nav.phones": "الهواتف الذكية",
         "nav.smartphones": "الهواتف الذكية",
         "nav.accessories": "الإكسسوارات والملاحق",
         "nav.maintenance": "طلب صيانة مالكة",
@@ -198,10 +199,12 @@ export default function App() {
         "reservation.walletLabel": "اختر المحفظة الإلكترونية لإرسال الدفعة",
         "reservation.uploadReceipt": "اضغط لرفع سند الإيداع",
         "reservation.captureCamera": "التقاط صورة السند بالكاميرا",
-        "reservation.submitButton": "إرسال وتأكيد الطلب للإدارة فوراً"
+        "reservation.submitButton": "إرسال وتأكيد الطلب للإدارة فوراً",
+        "search.placeholder": "ابحث عن منتج..."
       },
       en: {
         "nav.home": "Home",
+        "nav.phones": "Smartphones",
         "nav.smartphones": "Smartphones",
         "nav.accessories": "Accessories",
         "nav.maintenance": "Repairs",
@@ -239,7 +242,8 @@ export default function App() {
         "reservation.walletLabel": "Select Digital Mobile Wallet",
         "reservation.uploadReceipt": "Drag & drop transaction receipt proof",
         "reservation.captureCamera": "Take direct photo from Camera device",
-        "reservation.submitButton": "Submit Order Booking Request"
+        "reservation.submitButton": "Submit Order Booking Request",
+        "search.placeholder": "Search for a product..."
       }
     };
 
